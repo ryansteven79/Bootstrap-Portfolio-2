@@ -387,7 +387,7 @@ sm {
   }
 
   #headerwrap {
-    background: url(../img/rothko-number-14.jpg) no-repeat center top;
+    background: url(../img/rothko-number-14.jpg) no-repeat center ;
     /* margin-top: 60px; */
     padding-top: 7vh;
     min-height: 25vh;
@@ -405,3 +405,4 @@ sm {
   }
 
 }
+
