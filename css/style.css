@@ -375,34 +375,33 @@ sm {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-device-width: 640px),
+only screen and (max-device-width: 667px),
+only screen and (max-width: 480px) {
   #logo {
-    width: 80vw;
+    width: 65vw;
   }
-
-
   #headerwrap h3 {
-    font-size: 15px;
+    margin-top:10px;
+    font-size: 12px;
     color: white;
   }
-
   #headerwrap {
-    background: url(../img/rothko-number-14.jpg) no-repeat center ;
+    background: url(../img/rothko-number-14.jpg) no-repeat center;
     /* margin-top: 60px; */
-    padding-top: 7vh;
-    min-height: 25vh;
+    padding-top: 9vh;
+    min-height: 30vh;
   }
-
   #intro {
-    padding-top: 4vh;
-    padding-bottom: 6vh;
-    color: white;
-    height: 50vh;
+    padding-top: 10vh;
+    padding-bottom: 25vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: red;
+    height: 60vh;
   }
-
   #padding {
-    border: 3%;
+    border: 23%;
   }
-
 }
 
